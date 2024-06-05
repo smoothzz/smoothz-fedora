@@ -13,7 +13,7 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-rpm-ostree install kernel-headers kernel-devel dkms elfutils-libelf-devel qt5-qtx11extras tilix flameshot ulauncher zsh numix-icon-theme-circle cockpit cockpit-machines podman git ffmpeg-libs virt-install libvirt-daemon-config-network libvirt-daemon-kvm qemu-kvm virt-manager virt-viewer
+rpm-ostree install kernel-headers kernel-devel dkms elfutils-libelf-devel qt5-qtx11extras tilix flameshot ulauncher zsh numix-icon-theme-circle cockpit cockpit-machines podman git ffmpeg-libs virt-install libvirt-daemon-config-network libvirt-daemon-kvm qemu-kvm virt-manager virt-viewer steam
 
 #### Example for enabling a System Unit File
 
